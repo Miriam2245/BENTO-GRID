@@ -1,52 +1,59 @@
 .main-container {
   width: 70%;
-  border: 1px solid black;
   display: grid;
+  margin: 0 auto;
+  margin-top: 80px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: 300px 300px 300px;
   gap: 20px;
+  font-family: "DM Sans";
 }
 .container-1 {
   grid-column: span 1;
   grid-row: span 2;
+  border-radius: 10px;
   background-color: aqua;
-  border: 2px solid black;
+}
+.container-1 p {
+  font-size: 32px;
 }
 .container-2 {
   grid-column: span 2;
   grid-row: span 1;
+  border-radius: 10px;
   background-color: lightgreen;
-  border: 2px solid black;
 }
 .container-3 {
   grid-column: span 1;
   grid-row: span 2;
+  border-radius: 10px;
   background-color: lightcoral;
-  border: 2px solid black;
 }
 .container-4 {
   grid-column: span 1;
   grid-row: span 1;
+  border-radius: 10px;
   background-color: lightyellow;
-  border: 2px solid black;
 }
 .container-5 {
   background-color: lightblue;
-  border: 2px solid black;
+  border-radius: 10px;
 }
 .container-6 {
   grid-column: span 1;
   grid-row: span 2;
+  border-radius: 10px;
   background-color: lightpink;
-  border: 2px solid black;
 }
 .container-7 {
+  grid-column: span 1;
+  grid-row: span 2;
+  border-radius: 10px;
   background-color: lightgray;
-  border: 2px solid black;
 }
 .container-8 {
   grid-column: span 2;
   grid-row: span 2;
+  border-radius: 10px;
   background-color: lightcyan;
-  border: 2px solid black;
 }
